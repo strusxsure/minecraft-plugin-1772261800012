@@ -1,0 +1,15 @@
+name: SkyRocket
+version: 1.0
+main: com.stormai.plugin.Main
+api-version: 1.20
+authors: [StormAI]
+description: A plugin that launches players into the air and prevents fall damage for 5 seconds.
+commands:
+  boom:
+    description: Launch yourself into the sky!
+    usage: /boom
+    permission: skyrocket.boom
+permissions:
+  skyrocket.boom:
+    description: Allows the player to use the /boom command
+    default: true
